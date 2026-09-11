@@ -36,3 +36,13 @@ next-env.d.ts
 /.wrangler/
 /outputs/
 /work/
+
+# local caches and packaged deployment artifacts
+/.npm-cache/
+/site-deploy.tar.gz
+
+# duplicate source assets (runtime copies live in /public)
+/Head.glb
+/Modd.glb
+/Logo.png
+/monochrome_studio_04_1k.hdr
